@@ -3,6 +3,8 @@ import React from "react";
 import { useContext } from "react";
 import { QuizContext } from "../context/quiz";
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 import WellDone from "../img/Welldone.svg"
 
 import "./GameOver.css";
