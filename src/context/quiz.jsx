@@ -25,6 +25,7 @@ const quizReducer = (state, action) =>{
             }
 
         case "REORDER_QUESTIONS":
+            // eslint-disable-next-line no-case-declarations
             const reorderedQuestions = questions.sort(() => {
                 return Math.random() - 0.5;
             });
@@ -34,7 +35,9 @@ const quizReducer = (state, action) =>{
             };
 
         case "CHANGE_QUESTION":
+            // eslint-disable-next-line no-case-declarations
             const nextQuestion = state.currentQuestion + 1;
+            // eslint-disable-next-line no-case-declarations
             let endGame = false
 
             if(!questions[nextQuestion ]){
@@ -50,9 +53,11 @@ const quizReducer = (state, action) =>{
 
         case "CHECK_ANSWER":
             if(state.answerSelected) return state; //Para não ficar somando pontos infinitos
+            // eslint-disable-next-line no-case-declarations
             const answer = action.payload.answer;
+            // eslint-disable-next-line no-case-declarations
             const option = action.payload.option;
-
+            // eslint-disable-next-line no-case-declarations
             let correctAnswer = 0;
 
             if(answer === option) correctAnswer = 1;

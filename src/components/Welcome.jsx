@@ -6,6 +6,7 @@ import Quiz from "../img/quiz.svg";
 import "./Welcome.css";
 
 const Welcome = () =>{
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [quizState, dispatch] = useContext(QuizContext);
 
     //console.log(quizState);
