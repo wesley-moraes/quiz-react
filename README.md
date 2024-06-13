@@ -1,5 +1,7 @@
 # Quiz React
 
+## Deploy: (Quiz-React)[https://quiz-react-three-dun.vercel.app/]
+
 ## Descrição
 
 Quiz desenvolvido em React com perguntas relacionadas a JavaScript! Este projeto foi criado para testar e melhorar seus conhecimentos em JavaScript através de uma interface interativa e amigável. 
