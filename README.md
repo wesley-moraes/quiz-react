@@ -1,6 +1,6 @@
 # Quiz React
 
-## Deploy: (Quiz-React)[https://quiz-react-three-dun.vercel.app/]
+## Deploy: [Quiz-React](https://quiz-react-three-dun.vercel.app/)
 
 ## Descrição
 
