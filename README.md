@@ -32,6 +32,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 Para iniciar o projeto, execute o comando:
 ```bash
 npm start
+```
 
 Isso irá iniciar o servidor de desenvolvimento e abrir o projeto no seu navegador padrão. O aplicativo estará acessível em *http://localhost:3000*.
 
