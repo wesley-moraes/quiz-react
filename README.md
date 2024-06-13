@@ -16,7 +16,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/quiz-react.git
+    git clone git@github.com:wesley-moraes/quiz-react.git
     ```
 2. Navegue até o diretório do projeto:
     ```bash
