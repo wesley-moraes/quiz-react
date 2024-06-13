@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# Quiz React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+Quiz desenvolvido em React com perguntas relacionadas a JavaScript! Este projeto foi criado para testar e melhorar seus conhecimentos em JavaScript através de uma interface interativa e amigável. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Funcionalidades
+- Perguntas aleatórias sobre JavaScript.
+- Feedback imediato após a resposta.
+- Pontuação ao final do quiz.
+- Interface responsiva para diferentes tamanhos de tela.
 
-## Expanding the ESLint configuration
+## Instalação
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Para rodar o projeto localmente, siga os passos abaixo:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/quiz-react.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd quiz-react
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Uso
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Para iniciar o projeto, execute o comando:
+```bash
+npm start
+
+Isso irá iniciar o servidor de desenvolvimento e abrir o projeto no seu navegador padrão. O aplicativo estará acessível em *http://localhost:3000*.
+
+## Contato
+Para mais informações ou para reportar problemas, entre em contato:
+
+- Email: wesley.moraes@example.com
+- GitHub: [wesley-moraes](https://github.com/wesley-moraes/)
+- LinkedIn: [Wesley Moraes](https://www.linkedin.com/in/wesley-moraes/)
+
+
+
+
