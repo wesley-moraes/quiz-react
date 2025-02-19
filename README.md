@@ -33,10 +33,10 @@ Para rodar o projeto localmente, siga os passos abaixo:
 
 Para iniciar o projeto, execute o comando:
 ```bash
-npm start
+npm run dev
 ```
 
-Isso irá iniciar o servidor de desenvolvimento e abrir o projeto no seu navegador padrão. O aplicativo estará acessível em *http://localhost:3000*.
+Isso irá iniciar o servidor de desenvolvimento pelo vite e abrirá o projeto no seu navegador padrão.
 
 ## Contato
 Para mais informações ou para reportar problemas, entre em contato:
